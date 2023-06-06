@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git & GitHub Tutorail</title>
+    <link rel="shortcut icon" href="/images/icons/merge.png" type="image/x-icon">
+    <link rel="stylesheet" href="/bootstrap-5.0.2/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/style/css/bg-control.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="/images/icons/merge.png" alt="" width="50%" ,
+                        height="50%"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">ໜ້າຫຼັກ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#install-git">ຕິດຕັ້ງGit</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#config-user">Config Git</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#github-register">ສະໝັກGitHub</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ກ່ຽວກັບເຮົາ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/Introduction Slide.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/Introduction Slide.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/Introduction Slide.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+    <main>
+        <section class="#">
+            <div class="card shadow">
+                <div class="card-body">
+                  <p class="card-text fw-bold">
+                    ເຄີິຍຂຽນໂປຣແກຣມຮ່ວມກັບຄົນອື່ນ ຫຼື ບໍ່? 
+                    <span class="card-text fw-normal">
+                        ປົກກະຕິແລ້ວ, ເຮົາຈະເຮັດແນວໃດຖ້າຫາກຢາກແບ່ງກັນເຮັດວຽກ ແຍກກັນເຮັດຄົນລະ Function ຫຼື Feature? ເວລາແກ້ໄຂ Code ໃນສ່ວນດຽວກັນ ຫຼື ຕໍ່ກັນຈະແກ້ໄຂແນວໃດ? 
+                    </span>
+                </p>
+                <p class="card-text">
+                    ຫາກວ່າຢາກທົດສອບຫຍັງບາງຢ່າງແລ້ວຢ້ານ code ພັງ, ຖ້າ Code ໄວ້ຫຼາຍໆອັນ ແລະ ເມື່ອຈະເອົານຳມາໃຊ້ກໍບໍ່ຮູ້ວ່າໂຕໃດເປັນ Version ລ່າສຸດ.
+                </p>
+                <h5 class="card-title fw-bold text-success">ບັນຫາເຫຼົ້ານີ້ຈະໝົດໄປຖ້າຫາກຫັນມານຳໃຊ້ Git Version Control + GitHub</h5>
+                </div>
+            </div>
+        </section>
+        <section class="#">
+            <div class="card m-3 shadow">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold text-primary">Git ແມ່ນ......?</h5>
+                  <p class="card-text fw-bold">
+                    Git ເປັນ version control System ທີ່ເປັນ Open source ໂດຍມັນຈະໃຊ້ຕິດຕາມປະຫວັດ ຫຼື ກວດສອບການແກ້ໄຂ File ຫຼື Source code ເຊິ່ງຈະກວດສອບໄດ້ວ່າຈຸດໃດຖືກແກ້ໄຂ ແລະ ພ້ອມບອກວ່າຖືກແກ້ໄຂເວລາໃດ ແລະ ໃຜເປັນຜູ້ແກ້ໄຂ.
+                </p>
+                </div>
+            </div>
+        </section>
+        <section class="#" id="install-git">
+            <div class="card m-3 shadow">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold text-danger">ຕິດຕັ້ງ Git Version Control </h5>
+                    <p class="card-text">
+                        ສຳຫຼັບການຕິດຕັ້ງກໍສາມາດເຂົ້າໄປ download ໄດ້ໃນ Website ຂອງ Git ເລີຍ
+                        <a href="https://git-scm.com/downloads" class="text-warning">Git-Download</a>
+                    </p>
+                  <br>
+                  <p class="card-text fw-bold">
+                    ວິທີຕິດຕັ້ງ : ກົດເຂົ້າ URL ທາງເທິງ ແລະ ເລືອກລະບົບປະຕິດບັດການ ແລ້ວກົດດາວໂຫຼດ
+                </p>
+                </div>
+                <img src="/images/installGit.png" class="card-img-top img-fluid p-3" alt="Image">
+                <div class="card-body">
+                    <p class="card-text fw-bold text-danger">
+                        ຈາກນັ້ນກໍເປີດ File ເພື່ອຕຶດຕັ້ງ....
+                    </p>
+                </div>
+                <img src="/images/install.png" class="card-img-top img-fluid p-3" alt="Image">
+                <div class="card-body">
+                    <p class="card-text fw-bold text-danger">
+                        ເມື່ອຕຶິດຕັັ້ງສຳເລັດແລ້ວ ລອງໃຊ້ຄຳສັ່ງ git --version ໃນ terminal ຫຼື cmd ເພື່ອເປັນການກວດສອບວ່າຕິດຕັ້ງ git ຜ່ານ ຫຼື ບໍ່
+                    </p>
+                </div>
+                <img src="/images/git--version.png" class="card-img-top img-fluid p-3" alt="Image">
+            </div>
+        </section>
+        <section class="#" id="config-user">
+            <div class="card m-3 shadow">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold text-danger">Config git user....</h5>
+                  <p class="card-text fw-bold">
+                    ຫຼັງການຈາກຕິດຕັ້ງແລ້ວຈະຕ້ອງມາ Set ຄ່າເລັກໜ້ອຍເພື່ອກຽມພ້ອມໃຊ້ງານ
+                </p>
+                <p class="card-text fw-bold">
+                    <u>
+                        <li>ເປີດ Terminal ຫຼື cmd</li>
+                        <li>git config --global user.email "ອີເມວຂອງຜູ້ໃຊ້"</li>
+                        <li>git config --global user.name "ຊື່ຂອງຜູ້ໃຊ້"</li>
+                    </u> 
+                    <span class="fw-bold text-danger">
+                        #ຢ່າລືມໃສ່ "..." ໃຫ້ຊື່ ແລະ ອີເມວຂອງຜູ້ໃຊ້
+                    </span>
+                </p>
+                </div>
+                <img src="/images/confuig.png" class="card-img-top img-fluid p-3" alt="Image">
+            </div>
+        </section>
+        <section class="#">
+            <div class="card m-3 shadow">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold text-primary">GitHub ແມ່ນ......?</h5>
+                  <p class="card-text fw-bold">
+                    ເປັນ Website ທີ່ໃຫ້ບໍລິການ Git (Version Control Repository) ເຊິ່ງຈະໃຫ້ບໍລິການ Cloud ໃຫ້ເຮົາສາມາດນຳ Project ຫຼື Source code ໄປຝາກໄວ້ໃນ Server ໄດ້ແບບ FREE ແລະ ຍັງສາມາດເປີດເປັນ Private ຫຼື Public ເພື່ອໃຫ້ຄົນອື່ນມາເບິ່ງ Source code ຂອງເຮົາໄດ້.
+                </p>
+                </div>
+            </div>
+        </section>
+        <section class="#" id="github-register">
+            <div class="card m-3 shadow">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold text-danger">ສະໝັກບັນຊີ GitHub</h5>
+                  <p class="card-text fw-bold">
+                    ຖ້າວ່າທ່ານມີບັນຊີຂອງ GitHub ຢູ່ແລ້ວ, ທ່ານສາມາດລົງທະບຽບເຂົ້າ Website ຂອງ GitHub ໄດ້ເລີຍ. <br>
+                    ແຕ່ຖ້າທ່ານບໍ່ທັນມີບັນຊີຂອງ GitHub ທ່ານຈຳເປັນຕ້ອງສະໝັກສະມາຊິກກ່ອນໄດ້ທີ່ <a href="https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home" class="text-warning">GitHub-register</a>
+                </p>
+                </div>
+                <img src="/images/regis.png" class="card-img-top img-fluid p-3" alt="Image">
+            </div>
+        </section>
+        <section class="#" id="github-register">
+            <div class="card  shadow p-3">
+                <div class=" card-body rounded-3">
+                    <h3 class="card-title fw-bold  text-center">ຄຳສັ່ງພື້ນຖານຂອງມີຫຍັງແດ່?</h3>
+                    <p class="card-text fw-bold text-center text-secondary">ມາເບິ່ງຄຳສັ່ງພື້ນຖານຂອງ git ທີ່ເຫັນມັກຖືກນຳໃຊ້</p>
+                </div>
+                <div class="card-body">
+                    <ul class="card-text">
+                        <div class="#">
+                            <li class="fw-bold h5">git init</li>
+                            <p class="fw-bold text-success">ສ້າງ Local Repository ຫຼື file .git</p>
+                            <img src="/images/cnd/init.png" class="card-img-bottom img-fluid " alt="Image">
+                            <br>
+                            <p class="text-secondary">
+                                ການເຮັດວຽກຄືໃຫ້ git ມັນເຮັດວຽກຢູ່ແຕ້ໃນສ່ວນຂອງ folder ທີ່ຊຶ່ວ່າ GitCT-Web ນັ້ນເອງ
+                            </p>
+                        </div>
+                        <div class="#">
+                            <li class="fw-bold h5">git add</li>
+                            <p class="fw-bold text-success">
+                                ເພີ່ມ file ເຂົ້າສູ່ stage ຫຼື ສະຖານະການປ່ຽນແປງ
+                                <span class="text-secondary">
+                                    ເຊິ່ງວິທີການກຳນົດ file ເຂົ້າ stage ຈະມີຫຼາຍແບບດັ່ງນີ້:
+                                </span>
+                            </p>
+                            <ol>
+                                <div class="#">
+                                    <li class="fw-bold">ເພີ່ມທັງໝົດທຸກ file ຫຼື folder</li>
+                                    <p class="fw-bold text-success">git add .</p>
+                                    <img src="/images/cnd/add ..png" class="card-img-bottom img-fluid " alt="Image">
+                                </div>
+                                <br>
+                                <div class="#">
+                                    <li class="fw-bold">ເພື່ອສະເພາະບາງ file</li>
+                                    <p class="fw-bold text-success">git add ຊື່file.ນາມສະກຸນ</p>
+                                    <img src="/images/cnd/add file.png" class="card-img-bottom img-fluid " alt="Image">
+                                </div>
+                                <br>
+                                <div class="#">
+                                    <li class="fw-bold">ເພື່ອສະເພາະ file ທີ່ເປັນນາມສະກຸນທິ່ກຳນົດທັງໝົດ</li>
+                                    <p class="fw-bold text-success">git add *.ນາມສະກຸນ</p>
+                                    <img src="/images/cnd/add......png" class="card-img-bottom img-fluid " alt="Image">
+                                </div>
+                            </ol>
+                        </div>
+                        <br>
+                        <div class="#">
+                            <li class="fw-bold h5">git commit -m "comment"</li>
+                            <p class="fw-bold text-success">ຢັ້ງຢືນການປ່ຽນແປງ file ທີ່ຖືກ add ເຂົ້າ stage</p>
+                            <img src="/images/cnd/commit.png" class="card-img-bottom img-fluid " alt="Image">
+                            <br>
+                            <p class="text-secondary">
+                                -m "ຂໍ້ຄວາມ" ບ່ອນຂໍ້ຄວາມຈຳເປັນຕ້ອງໄດ້ໃສ່ ເພາະຈະເປັນການແຈ້ງຄົນໃນທີມວ່າເຮົາໄດ້ເພີ່ມ ຫຼື ແກ້ໄຂ code ສ່ວນໃດ
+                            </p>
+                        </div>
+                        <div class="#">
+                            <li class="fw-bold h5">git reset</li>
+                            <p class="fw-bold text-success">ເປັນການຍ້ອນ version file ກ່ອນທີ່ຈະຖືກ add ເຂົ້າ stage</p>
+                            <img src="/images/cnd/reset.png" class="card-img-bottom img-fluid " alt="Image">
+                            <br>
+                        </div>
+                        <div class="#">
+                            <li class="fw-bold h5">git push</li>
+                            <p class="fw-bold text-success">ເປັນການສົ່ງ file ທີ່ຖືກ commit ເຂົ້າໄປທີ່ remote repository</p>
+                            <img src="/images/cnd/push.png" class="card-img-bottom img-fluid " alt="Image">
+                            <br>
+                            <p class="text-secondary">
+                                orgin ເປັນຊື່ຂອງ remote ແລະ main ເປັນຊື່ git branch ທີ່ຖຶກສ້າງຂື້ນ
+                            </p>
+                        </div>
+                        <div class="#">
+                            <li class="fw-bold h5">git clone</li>
+                            <p class="fw-bold text-success">
+                                ເປັນການດາວໂຫຼດ Project ມາຈາກ Project ຫຼັກ, ເຊິ່ງເຮົາສາມາດແກ້ໄຂ ຫຼື ປ່ຽນແປງ File ໃນ Project ນັ້ນໄດ້ໂດຍຈະບໍ່ມີຜົນກະທົບຕໍ່ Project ຫຼັກ
+                            </p>
+                            <img src="/images/cnd/clone.png" class="card-img-bottom img-fluid " alt="Image">
+                            <br>
+                            <p class="text-secondary">
+                                Project ທີ່ເຮົາ clone ມາເອີ້ນວ່າ local repository <br>
+                                Project ຫຼັກ ເອີ້ນວ່າ remote repository.
+                            </p>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="/bootstrap-5.0.2/dist/js/bootstrap.js"></script> 
+</body>
+</html>

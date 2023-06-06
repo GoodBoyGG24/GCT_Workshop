@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: purple;
+    font-family: 'Phetsarath ot';
+}
+.nav-link{
+    color: white;
+    text-decoration: none;
+    font-family: 'Phetsarath ot';
+    font-weight: bold;
+    
+}
+.carousel-item img {
+    max-height: 280px; /* set the maximum height of the images */
+    object-fit: cover; /* ensure that the images maintain their aspect ratio and fill the available space */
+  }
+  .custom-bg-purple{
+    background-color: purple;
+  }
